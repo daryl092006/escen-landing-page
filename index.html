@@ -66,38 +66,19 @@
     .nb-logo {
       display: flex;
       align-items: center;
-      gap: 11px;
       text-decoration: none;
     }
 
-    .nb-badge {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, var(--navy-dark), var(--navy-light));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Sora', sans-serif;
-      font-weight: 800;
-      font-size: 13px;
-      color: white;
-      letter-spacing: .5px;
-    }
-
-    .nb-name {
-      font-family: 'Sora', sans-serif;
-      font-weight: 700;
-      font-size: 15px;
-      color: var(--navy);
-      line-height: 1.2;
-    }
-
-    .nb-sub {
-      font-size: 10px;
-      color: var(--muted);
-      font-weight: 400;
+    .logo-img {
+      height: 48px;
+      width: auto;
       display: block;
+    }
+
+    @media(max-width: 600px) {
+      .logo-img {
+        height: 38px;
+      }
     }
 
     .nb-contact {
@@ -1700,11 +1681,7 @@
   <!-- ——— NAVBAR ——— -->
   <nav class="navbar">
     <a href="#" class="nb-logo">
-      <div class="nb-badge">ES</div>
-      <div>
-        <span class="nb-name">ESCEN</span>
-        <span class="nb-sub">École Supérieure de Commerce &amp; Économie Numérique</span>
-      </div>
+      <img src="logo-escen.png" alt="Logo ESCEN" class="logo-img">
     </a>
     <a href="mailto:admission@escen.university" class="nb-contact">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
