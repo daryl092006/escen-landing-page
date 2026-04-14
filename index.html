@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESCEN — Certification Microsoft 365</title>
+  <title>ESCEN — Programme certifiant Microsoft 365</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
     rel="stylesheet">
@@ -1699,12 +1699,12 @@
     <div class="s1-hero">
       <div class="s1-badge">
         <div class="pulse-dot"></div>
-        Certification officielle Microsoft 365
+        Programme certifiant officielle Microsoft 365
       </div>
 
       <h1 class="s1-title">
         Êtes-vous prêt pour la<br>
-        <em>certification Microsoft 365 ?</em>
+        <em>Programme certifiant Microsoft 365 ?</em>
       </h1>
       <p class="s1-sub">
         Microsoft 365 est la suite bureautique cloud utilisée par plus de <strong>345 millions de
@@ -1771,7 +1771,7 @@
 
       <div id="timerDisplay"
         style="font-weight: 800; color: #00B4D8; text-align: center; font-size:24px; margin-bottom: 20px; font-family:'Sora', sans-serif;">
-        20s
+        45s
       </div>
       <div id="quizContent"></div>
 
@@ -2049,7 +2049,7 @@
       formUrl: null,
       popShown: false,
       popTimer: null,
-      timer: 20,
+      timer: 45,
       interval: null,
       scoreLabel: ""
     };
@@ -2223,7 +2223,7 @@
     ];
     function startTimer() {
       clearInterval(S.interval);
-      S.timer = 20;
+      S.timer = 45;
       updateTimerUI();
 
       S.interval = setInterval(() => {
